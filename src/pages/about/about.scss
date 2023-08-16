@@ -1,0 +1,58 @@
+@import "../../index.scss";
+.about{
+.about__story{
+    margin-top: 4rem;
+    color: white;
+
+    img{
+        width: 60%;
+        
+        border-radius: 50%;
+        overflow: hidden;
+        transform:scale(1.1) skew(14deg);
+        
+        transition: $transition;
+        margin: 0 auto;
+        &:hover{
+            transform: skew(0);
+        }
+
+    }
+    .about__section-content{
+        margin-top: 5rem;
+    }
+ 
+        }
+    
+
+    }
+
+
+
+    .about__mission{
+        margin-top: 4rem;
+    color: white;
+
+    img{
+        width: 60%;
+        
+        border-radius: 50%;
+        overflow: hidden;
+        transform: scale(1.1) skew(-14deg);
+        transition: $transition;
+        margin: 0 auto;
+        &:hover{
+            transform: skew(0);
+        }
+
+    }
+    .mission__section-content{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+ 
+        }
+    
+
+    
+

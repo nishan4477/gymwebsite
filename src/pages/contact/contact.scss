@@ -1,0 +1,31 @@
+@import "../../index.scss";
+
+.contact{
+    margin-top: 6rem;
+    .contact__icon{
+    
+    a{
+       font-size: 8rem;
+       margin: 0 auto;
+       border: 2px solid transparent;
+      transition: $transition;
+       background: $color-gray-500;
+       padding: 2rem 5rem;
+       border-radius: 3rem;
+       &:hover{
+        background: transparent;
+        border-color: $color-gray-100;
+
+     
+
+       }
+
+       @media (max-width: 768px){
+            font-size: 4rem;
+            line-height: 12rem;
+            
+       }
+    
+    }
+}
+}

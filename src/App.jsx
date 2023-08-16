@@ -11,16 +11,20 @@ import {  BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './component/Footer'
+import ScrollToTop from "react-scroll-to-top";
+import ScrollToTops from './component/ScrollTotops'
 
 
 
 const App = () => {
   return (
     <BrowserRouter>
-      
+    <ScrollToTops/>
+      <ScrollToTop smooth />
       <Navbar/>
 
        <Routes>
+
         <Route index element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
@@ -32,7 +36,7 @@ const App = () => {
 
        </Routes>
 
-      
+      <Footer/>
       
       
     

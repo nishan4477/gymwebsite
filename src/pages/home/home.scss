@@ -15,6 +15,8 @@
   }
   
   .main__header-left {
+ 
+      
     
     h4 {
       margin-bottom: 1rem;
@@ -38,14 +40,17 @@
    
     }
     .main__header-circle {
-      width: 35rem;
-      min-height: 35rem;
+     width: 35rem; 
+      height: 35rem;
       background: linear-gradient(75deg, $color-secondary, transparent);
       border-radius: 50%;
       position: absolute;
-      filter: blur(15px);
-      z-index: -1;
-  
+      filter: blur(1.5rem);
+    
+  @media (max-width:768px) {
+    display: none;
+    
+  }
     
     
 
@@ -120,14 +125,16 @@ margin-top: 4rem ;
 .testimonials{
 
   .card.testimonial{
-    width: 60vw;
+    width:70vw;
      position: relative;
      display: flex;
      align-items: center;
      justify-content: center;
      padding: 1rem 4rem ;
-     margin-left: 10vw;
-     margin-right: 10rem;
+     margin-left: auto;
+     margin-right: auto;
+   
+     
     
 
      .testimonial__avatar{

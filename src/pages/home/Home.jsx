@@ -6,6 +6,7 @@ import Values from '../../component/Values'
 import FAQs from '../../component/FAQs'
 import Testimonials from '../../component/Testimonials'
 import Footer from '../../component/Footer'
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -17,7 +18,7 @@ const Home = () => {
  <Values/>
  <FAQs/>
  <Testimonials/>
- <Footer/>
+
  </div>
   )
 }
