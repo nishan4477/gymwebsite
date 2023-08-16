@@ -1,0 +1,37 @@
+
+@import '../index.scss';
+
+
+footer{
+line-height: 3rem;
+margin-top: 4rem;
+padding-top: 3rem;
+background: $color-gray-500;
+
+.logo{
+    display: block;
+    width: 8rem;
+    margin-bottom: 4rem;
+}
+p{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.social__logo{
+    color: white;
+    font-size: 2rem;
+    a{
+        padding: 1rem;
+        background-color: transparent;
+        border-radius: 1rem;
+        transition: $transition;
+
+        &:hover{
+            background-color: $color-secondary;
+        }
+        
+    }
+}
+}

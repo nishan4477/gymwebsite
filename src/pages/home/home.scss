@@ -1,0 +1,146 @@
+@import "../../index.scss";
+.main__header {
+  width: 100vw;
+  height: 105vh;
+  display: grid;
+  place-items: center;
+  margin-top: 1rem;
+
+  .main__header-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main__header-left {
+    
+    h4 {
+      margin-bottom: 1rem;
+      color: $color-secondary;
+      font-weight: 400;
+    }
+    p {
+      margin: 1rem 0 3.5rem 0;
+    }
+  }
+  
+  .main__header-right {
+    display: grid;
+    place-items: center;
+    position: relative;
+  
+    .main_header-image {
+      position: relative !important;
+  
+   
+   
+    }
+    .main__header-circle {
+      width: 35rem;
+      min-height: 35rem;
+      background: linear-gradient(75deg, $color-secondary, transparent);
+      border-radius: 50%;
+      position: absolute;
+      filter: blur(15px);
+      z-index: -1;
+  
+    
+    
+
+    }
+  }
+  
+}
+// values starterd
+
+.values{
+margin-top: 4rem ;
+
+
+.sectionhead{
+  margin-bottom: 2rem;
+}
+  img{
+    filter: saturate(0.25);
+    transition: $transition;
+    height: 85vh;
+    border-radius:0 8rem 0 8rem;
+   
+    &:hover{
+      filter: saturate(1) ;
+    }
+  }
+  .card.values_value{
+    position: relative;
+    padding-top: 4rem;
+    text-align: left!important;
+    span{
+      position: absolute;
+      top: -1.5rem;
+    }
+
+  }
+
+}
+ 
+
+
+
+// FAQS started
+
+.faq{
+  background: $color-gray-500;
+  padding: 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button{
+      font-size: 2rem;
+      background: transparent;
+      color: aliceblue;
+    }
+  }
+  p{
+    margin-top: 1.5rem;
+  }
+}
+
+
+
+//testimonials
+
+
+.testimonials{
+
+  .card.testimonial{
+    width: 60vw;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1rem 4rem ;
+     margin-left: 10vw;
+     margin-right: 10rem;
+    
+
+     .testimonial__avatar{
+      position: absolute;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      border: 0.2rem solid white;
+      top: -2.5rem;
+      display: block;
+    
+      
+     }
+     
+  }
+}

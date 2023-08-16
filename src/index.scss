@@ -4,7 +4,7 @@
     border: 0;
     outline: 0;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none !important;
     box-sizing: border-box;
 
 
@@ -31,7 +31,7 @@ html{
 
 
 body{
-    background: $color-gray-600;
+    background: $color-gray-600 !important;
 
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
@@ -49,20 +49,20 @@ body{
 
 h1,h2,h3,h4,h5 {
     line-height: 1.2;
-    color: $color-gray-100;
+    color: $color-gray-100!important;
 
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 4rem !important;
 
 }
 h2{
-    font-size: 2.5rem
+    font-size: 3rem !important;
 }
 
-a{
-    color: $color-gray-100;
+a, small, span{
+    color: $color-gray-100 !important;
 }
 
 img{
@@ -71,3 +71,72 @@ img{
     width: 100%;
 
 }
+
+.btn-group-lg>.btn, .btn-lg{
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+.section__head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    span{
+        background: $color-gray-500 !important;
+        padding: 0.8rem 1rem;
+        border-radius: 1rem;
+        color: $color-secondary !important;
+        font-size:2rem ;
+    }
+    }
+
+.card  {
+    background-color:$color-gray-500 !important;
+    border: 2px solid transparent !important;
+    text-align: center !important;
+    padding: 3rem 2rem !important;
+    border-radius: 0 3rem 0 3rem !important;
+   
+    &:hover{
+        background: transparent!important;
+        border-color: $color-gray-400!important;
+        cursor: default!important;
+      
+    }
+   &:hover span{
+    background-color: $color-secondary !important;
+    color: $color-gray-600 !important;
+   }
+span{
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+    background: $color-primary !important;
+    color: $color-gray-100 !important;
+    font-size: 2rem !important;
+
+    display: grid !important;
+    place-items: center !important;
+    margin-bottom: 2rem !important;
+    margin-inline: auto !important;
+    border-radius: 1rem !important;
+    transition: $transition !important;
+    
+
+}
+ 
+small{
+    margin-top: 1rem !important;
+    display: block !important;
+    font-weight: 300 !important;
+    
+}
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+}
+
