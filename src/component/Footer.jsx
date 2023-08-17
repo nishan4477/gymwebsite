@@ -75,7 +75,7 @@ const Footer = () => {
             <Row>
                 <div>
                 <hr />
-                    <p className='text-center text-light '>nishansakha@copyright2023</p>
+                    <p className='text-center text-light '>nishansakhacopyright@2023</p>
                 </div>
             </Row>
         </Container>

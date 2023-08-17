@@ -1,43 +1,52 @@
-
 @import '../index.scss';
 
 
-footer{
-line-height: 3rem;
-margin-top: 4rem;
-padding-top: 3rem;
-background: $color-gray-500;
+footer {
+    line-height: 3rem;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    background: $color-gray-500;
 
-.logo{
-    display: block;
-    width: 8rem;
-    margin-bottom: 4rem;
-}
-p{
-    line-height: 1.5rem;
-    padding-bottom: 1rem;
-
-}
-
-.social__logo{
-    color: white;
-    font-size: 3rem;
-    width: 15rem;
-    height: 15rem;
-    a{
-        padding: 1rem;
-        background-color: transparent;
-        border-radius: 1rem;
-        transition: $transition;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-     
-
-        &:hover{
-            background-color: $color-secondary;
+    a {
+        color: $color-gray-100;
+        &:hover {
+            color: $color-secondary !important;
         }
-        
     }
-}
+
+    .logo {
+        display: block;
+        width: 8rem;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .social__logo {
+        color: white;
+        font-size: 3rem;
+        width: 15rem;
+        height: 15rem;
+
+
+        a {
+            padding: 1rem;
+            background-color: transparent;
+            border-radius: 1rem;
+            transition: $transition;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            &:hover {
+                background-color: $color-secondary;
+            }
+
+        }
+    }
 }

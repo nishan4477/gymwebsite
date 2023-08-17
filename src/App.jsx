@@ -20,9 +20,11 @@ const App = () => {
   return (
     <BrowserRouter>
     <ScrollToTops/>
-      <ScrollToTop smooth />
-      <Navbar/>
-
+      <ScrollToTop smooth
+      color='blue' 
+      
+     />
+       <Navbar/>
        <Routes>
 
         <Route index element={<Home/>}/>
