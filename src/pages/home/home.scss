@@ -100,6 +100,9 @@ margin-top: 4rem ;
   padding: 2rem;
   border-radius: 2rem;
   cursor: pointer;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out !important;
+
 
   div{
     display: flex;
@@ -114,9 +117,13 @@ margin-top: 4rem ;
   }
   p{
     margin-top: 1.5rem;
+    
   }
 }
-
+.faqs{
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
 
 
 //testimonials

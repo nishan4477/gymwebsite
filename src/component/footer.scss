@@ -41,10 +41,13 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            color: aliceblue;
 
 
             &:hover {
-                background-color: $color-secondary;
+                color: $color-secondary;
+              
+              
             }
 
         }
