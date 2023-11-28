@@ -7,6 +7,7 @@ import Plans from './pages/plans/Plans'
 import Trainers from './pages/trainers/Trainers'
 import Gallery from  './pages/gallery/Gallery'
 import Navbar from './component/Navbar'
+import Signin from './component/Signin'
 import {  BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -34,6 +35,7 @@ const App = () => {
         <Route path='plans' element={<Plans/>}/>
         <Route path='trainers' element={<Trainers/>}/>
         <Route path='*' element={<NotFound/>}/>
+        <Route path="signin" element={<Signin/>}/>
 
 
        </Routes>
